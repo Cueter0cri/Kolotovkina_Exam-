@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>IT-Блог</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Внешние стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header__container">
+        <a href="#" class="logo">IT-Блог</a>
+
+        <!-- Бургер -->
+        <button class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="#">Главная</a>
+            <a href="#">Статьи</a>
+            <a href="#">О проекте</a>
+            <a href="#">Контакты</a>
+        </nav>
+    </div>
+    <hr>
+</header>
+
+<main class="main fade-in">
+    <h1>Последние статьи</h1>
+
+    <section class="articles">
+        <article class="article">
+            <img src="./icon/download.jpg" alt="Статья 1">
+            <h2>Рискнули жизнью</h2>
+            <p>Сергей Лазарев и Дима Билан рискнули жизнью ради успеха.</p>
+            <a href="#" class="btn">Читать далее...</a>
+        </article>
+
+        <article class="article">
+            <img src="./icon/1200x1200bf-60.jpg" alt="Статья 2">
+            <h2>Сегодня умер Дима Билан.</h2>
+            <p>Сегодня умер Дима Билан. </p>
+            <a href="#" class="btn">Читать далее...</a>
+        </article>
+
+        <article class="article">
+            <img src="./icon/zisessneexfn-dima-bilan.webp" alt="Статья 3">
+            <h2>Билан опроверг слухи</h2>
+            <p>Дима Билан опроверг слухи о своей смерти, разместив свежие фото.</p>
+            <a href="#" class="btn">Читать далее...</a>
+        </article>
+
+        <article class="article">
+            <img src="./icon/images.jpg" alt="Статья 4">
+            <h2>Принимаем соболезнования по номеру ... </h2>
+            <p>Сегодня похороны Димы Билана. Болезнь унесла певца. Усталость виновна в случившемся. Смотрите фото.</p>
+            <a href="#" class="btn">Читать далее...</a>
+        </article>
+    </section>
+</main>
+
+<footer class="footer">
+    <hr>
+    <div class="footer__content">
+        <p>© IT-Блог, 2026. Все права защищены.</p>
+
+        <ul class="socials">
+            <li><a href="https://site.com"><img src="./icon/VK_Compact_Logo_(2021-present).svg.png" alt="VK"></a></li>
+            <li><a href="https://site.com"><img src="./icon/Icon_RUTUBE_dark_color_square.svg" alt="RuTube"></a></li>
+            <li><a href="https://site.com"><img src="./icon/Telegram_2019_Logo.svg.png" alt="Telegram"></a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Модальное окно -->
+<div class="modal" id="modal">
+    <span class="modal__close" id="modalClose">&times;</span>
+    <img class="modal__img" id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
