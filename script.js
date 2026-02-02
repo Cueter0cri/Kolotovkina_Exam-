@@ -1,4 +1,4 @@
-// Бургер-меню
+
 const burger = document.getElementById('burger');
 const nav = document.getElementById('nav');
 
@@ -6,7 +6,6 @@ burger.addEventListener('click', () => {
     nav.classList.toggle('active');
 });
 
-// Галерея
 const images = document.querySelectorAll('.article img');
 const modal = document.getElementById('modal');
 const modalImg = document.getElementById('modalImg');
